@@ -57,7 +57,6 @@ def check_correctness():
     turns = 0
     correct_digits_and_position = 0
     if correct_digits_and_position == 4:
-        correct = True
         print('Congratulations! You are a codebreaker!')
     else:
         print('Turns left: ' + str(12 - turns))
